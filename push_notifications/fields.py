@@ -18,7 +18,8 @@ hex_re = re.compile(r"^(([0-9A-f])|(0x[0-9A-f]))+$")
 signed_integer_engines = [
 	"django.db.backends.postgresql_psycopg2",
 	"django.contrib.gis.db.backends.postgis",
-	"django.db.backends.sqlite3"
+	"django.db.backends.sqlite3",
+	"db.gis_driver",
 ]
 
 
