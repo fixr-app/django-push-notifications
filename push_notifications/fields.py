@@ -19,7 +19,10 @@ signed_integer_engines = [
 	"django.db.backends.postgresql_psycopg2",
 	"django.contrib.gis.db.backends.postgis",
 	"django.db.backends.sqlite3",
+	# server-api-cms custom driver
 	"db.gis_driver",
+	# django-postgres-extra driver
+	"psqlextra.backend",
 ]
 
 
